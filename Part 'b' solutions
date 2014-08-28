@@ -1,0 +1,11 @@
+'''As the user inputs a degree in celsius, the program will
+   convert it to fahrenheit'''
+
+#let f=fahrenheit
+#let c=celsius
+
+c = float(input("What is the temperature in celsius?: "))
+
+f = (9./5)*c + 32
+
+print c,"degrees celsius is equal to",round(f,2),"fahrenheit"
