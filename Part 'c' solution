@@ -1,0 +1,22 @@
+''' This program will calculate the distance and the slop between two
+    points in a 2-D plane. '''
+
+import math
+
+x1,y1 = input("Enter the first point with the format, x,y : ")
+x2,y2 = input("Enter the second point with the same format: ")
+
+
+x1=float(x1)  #to avoid problems with int division
+
+
+
+# let m=slope
+# let d=distance
+
+m = float((y2-y1))/(x2-x1)
+
+d = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+
+print "The slope of the two points is,", round(m,2)
+print "The distance between the two points is,", round(d,2)
