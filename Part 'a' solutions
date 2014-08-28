@@ -1,0 +1,11 @@
+''' This program will ask the user for the radius of a sphere,
+    and will return the volume corresponding to that sphere.'''
+
+
+from math import pi
+
+radius = float(input("What is the radius of the sphere?: "))
+
+volume = (4./3)*(pi*(radius**3))              # we are using 4. instead of 4 to avoid int division
+
+print "The volume of the sphere is,",round(volume,2)
