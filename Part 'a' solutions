@@ -4,7 +4,7 @@
 
 from math import pi
 
-radius = float(input("What is the radius of the sphere?: "))
+radius = input("What is the radius of the sphere?: ")
 
 volume = (4./3)*(pi*(radius**3))              # we are using 4. instead of 4 to avoid int division
 
