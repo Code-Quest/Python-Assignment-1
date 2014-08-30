@@ -1,4 +1,4 @@
-''' This program will calculate the distance and the slop between two
+''' This program will calculate the distance and the slope between two
     points in a 2-D plane. '''
 
 import math
@@ -14,7 +14,7 @@ x1=float(x1)  #to avoid problems with int division
 # let m=slope
 # let d=distance
 
-m = float((y2-y1))/(x2-x1)
+m = (y2-y1)/(x2-x1)    #since x1 is a float, the value of m will also be a float
 
 d = math.sqrt((x2-x1)**2 + (y2-y1)**2)
 
